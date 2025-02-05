@@ -1,6 +1,6 @@
 import "./HeaderTop.css";
-import help from "https://github.com/ZeroCrypher/ConnectParis/blob/dfd41471982d65afcb4083fc3442282cd4b89fb3/src/Components/images/help.png";
-import contact from "https://github.com/ZeroCrypher/ConnectParis/blob/dfd41471982d65afcb4083fc3442282cd4b89fb3/src/Components/images/contact.png";
+import help from "C:/Users/gaeta/Documents/ConnectParis/src/Components/images/help.png";
+import contact from "C:/Users/gaeta/Documents/ConnectParis/src/Components/images/contact.png";
 
 function HeaderTop() {
   return (
