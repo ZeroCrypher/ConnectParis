@@ -1,5 +1,5 @@
-import "./App.css";
-import HeaderTop from "./Components/HeaderTop";
+import HeaderTop from "./Components/Header/HeaderTop";
+import HeaderNav from "./Components/Header/HeaderNav";
 
 function App() {
   return (
