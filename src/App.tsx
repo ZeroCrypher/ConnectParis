@@ -1,7 +1,12 @@
-import Message from './Message';
+import "./App.css";
+import HeaderTop from "./Components/HeaderTop";
 
-function App(){
-  return <div><Message /></div>
+function App() {
+  return (
+    <>
+      <HeaderTop />
+    </>
+  );
 }
 
 export default App;
