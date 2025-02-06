@@ -1,5 +1,20 @@
 .bottomNav{
     background-color: blue;
-    height: 5%;
-    position: absolute;
+    height: 10%;
+    width:auto;
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px;
+}
+
+.logo, .soldes, .produits {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.compte{
+    margin-left: 40%;
+}
+.panier {
+    margin-left: 10%;
 }

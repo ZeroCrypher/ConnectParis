@@ -8,7 +8,7 @@ function HeaderTop() {
       <header>
         <nav>
           <div className="contact">
-            <img src={contact} height={25} />
+            <img src={contact} height={20} />
             &nbsp;Contact
           </div>
           <div className="aide">
