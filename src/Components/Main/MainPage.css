@@ -1,6 +1,22 @@
+.reduc {
+    padding-top: 8%;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding-bottom: 1%;
+    font-size: 1.25em;
+}
+
+.info {
+    padding-top: 4%;
+    background-color: white;
+}
+
 .main {
     padding-top: 10%;
-    min-height: 150dvh;
+    min-height: 90dvh;
     width: 100%;
-    background-color: yellow;
+    background-color: #1b4f72;
+    color: white;
+    text-align: center;
 }

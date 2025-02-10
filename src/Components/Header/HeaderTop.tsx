@@ -1,7 +1,7 @@
 import "./HeaderTop.css";
-import help from "C:/Users/gaeta/Documents/ConnectParis/src/Components/images/help.png";
-import contact from "C:/Users/gaeta/Documents/ConnectParis/src/Components/images/contact.png";
-import fr from "C:/Users/gaeta/Documents/ConnectParis/src/Components/images/drapeauFR.png";
+import help from "C:/Users/saidb/ConnectParis/src/Components/images/help.png";
+import contact from "C:/Users/saidb/ConnectParis/src/Components/images/contact.png";
+import fr from "C:/Users/saidb/ConnectParis/src/Components/images/drapeauFR.png";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { useEffect, useState } from "react";
 
@@ -15,8 +15,8 @@ function HeaderTop() {
     if (latest > previous && latest > 30) {
       setHidden(true);
       hr.style.display = "none";
-      bottom.style.transform = "translateY(-54%)";
-    } else {
+      bottom.style.transform = "translateY(-70%)";
+    } else if (latest < 20) {
       setHidden(false);
       hr.style.display = "block";
       bottom.style.transform = "translateY(0%)";
