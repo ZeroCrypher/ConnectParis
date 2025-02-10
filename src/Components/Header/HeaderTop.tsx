@@ -6,13 +6,12 @@ import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { useEffect, useState } from "react";
 
 function HeaderTop() {
-  const bottom = document.getElementById("bottom");
-  const hr = document.getElementById("sepTop");
-  const { scrollY } = useScroll();
   const [hidden, setHidden] = useState(false);
+  const { scrollY } = useScroll();
   useMotionValueEvent(scrollY, "change", (latest) => {
     const previous = scrollY.getPrevious();
-
+    const bottom = document.getElementsByClassName("bottomNav")[0];
+    const hr = document.getElementsByClassName("sepTop")[0];
     if (latest > previous && latest > 30) {
       setHidden(true);
       hr.style.display = "none";
@@ -47,7 +46,7 @@ function HeaderTop() {
             <img className="drapeau" src={fr}></img>
           </div>
         </motion.nav>
-        <hr id="sepTop"></hr>
+        <hr className="sepTop"></hr>
         <div className="bottomNav" id="bottom">
           <div className="logo">LOGO</div>
           <div className="soldes">SOLDES</div>
