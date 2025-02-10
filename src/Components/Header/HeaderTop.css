@@ -15,7 +15,7 @@ nav {
 
 .contact, .aide, .langue {
   margin-left: 2%;
-  margin-right: 2%;
+  margin-right: 3%;
   margin-top: 0%;
   margin-bottom: 0%;
 }
@@ -34,7 +34,7 @@ nav {
   width:auto;
   display: flex;
   justify-content: flex-start;
-  padding: 15px;
+  padding: 35px;
   transition: 0.06s;
 }
 

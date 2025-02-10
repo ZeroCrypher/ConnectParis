@@ -6,19 +6,20 @@ import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { useEffect, useState } from "react";
 
 function HeaderTop() {
+  const bottom = document.getElementById("bottom");
+  const hr = document.getElementById("sepTop");
   const { scrollY } = useScroll();
   const [hidden, setHidden] = useState(false);
-  const bottom = document.getElementById("bottom")!;
-  const hr = document.getElementById("sepTop")!;
-
   useMotionValueEvent(scrollY, "change", (latest) => {
     const previous = scrollY.getPrevious();
-    if (latest > previous && latest > 70) {
+
+    if (latest > previous && latest > 30) {
       setHidden(true);
-      bottom.style.transform = "translateY(-110%)";
+      hr.style.display = "none";
+      bottom.style.transform = "translateY(-54%)";
     } else {
       setHidden(false);
-      hr.style.display = "none";
+      hr.style.display = "block";
       bottom.style.transform = "translateY(0%)";
     }
   });
