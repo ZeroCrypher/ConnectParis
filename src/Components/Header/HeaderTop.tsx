@@ -15,8 +15,8 @@ function HeaderTop() {
     if (latest > previous && latest > 30) {
       setHidden(true);
       hr.style.display = "none";
-      bottom.style.transform = "translateY(-54%)";
-    } else {
+      bottom.style.transform = "translateY(-70%)";
+    } else if (latest < 20) {
       setHidden(false);
       hr.style.display = "block";
       bottom.style.transform = "translateY(0%)";
