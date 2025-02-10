@@ -8,7 +8,6 @@ function App() {
   return (
     <>
       <HeaderTop />
-      <HeaderNav />
       <MainPage />
       <Footer />
     </>

@@ -1,15 +1,59 @@
+header {
+  position: fixed;
+  width: 100%;
+}
+
 nav {
-  background-color: red;
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: flex-end;
-  height: fit-content;
+  height: auto;
   margin: 0;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 .contact, .aide, .langue {
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  margin-left: 2%;
+  margin-right: 2%;
   margin-top: 0%;
   margin-bottom: 0%;
+}
+
+.drapeau {
+  object-fit: fill;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.bottomNav{
+  background-color: rgb(255, 255, 255);
+  height: 10%;
+  width:auto;
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px;
+  transition: 0.06s;
+}
+
+.logo, .soldes, .produits {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.compte{
+  margin-left: 40%;
+}
+.panier {
+  margin-left: 10%;
+}
+hr {
+  margin: -0.075%;
+  padding: 0%;
+  width: 95%;
+  translate: 2.5%;
+  height: 1px;
+  background-color: black;
 }
