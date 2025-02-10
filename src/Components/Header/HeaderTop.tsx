@@ -1,7 +1,7 @@
 import "./HeaderTop.css";
-import help from "C:/Users/saidb/ConnectParis/src/Components/images/help.png";
-import contact from "C:/Users/saidb/ConnectParis/src/Components/images/contact.png";
-import fr from "C:/Users/saidb/ConnectParis/src/Components/images/drapeauFR.png";
+import help from "C:/Users/gaeta/Documents/ConnectParis/src/Components/images/help.png";
+import contact from "C:/Users/gaeta/Documents/ConnectParis/src/Components/images/contact.png";
+import fr from "C:/Users/gaeta/Documents/ConnectParis/src/Components/images/drapeauFR.png";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { useEffect, useState } from "react";
 
