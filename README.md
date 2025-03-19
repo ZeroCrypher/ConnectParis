@@ -1,7 +1,5 @@
 # Spécifications
 
-Le stage fini le 14/02/2025, faudra qu'on bosse a fond sur le site pendant 2 semaines y compris weekends.
-
 La structure du site sera probablement en HTML/CSS avec JavaScript, cela dépend de comment on avance.
 
 ### FrameWorks
